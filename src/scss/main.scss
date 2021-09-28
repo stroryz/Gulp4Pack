@@ -1,0 +1,15 @@
+@import "second";
+
+.red {
+  color: #000;
+  &__item {
+    color: blue;
+  }
+}
+
+body {
+  background-color: green;
+  font-family: "Intro-Black-Alt";
+}
+
+@import "fonts";
